@@ -212,7 +212,7 @@ img {
 }
 
 .hotels {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .plus h2 {
@@ -739,7 +739,7 @@ span .active {
 .about {
     position: relative;
     text-align: center;
-    min-height: 212px;
+    min-height: 217px;
     padding-top: 43px;
     width: 100%;
 }
@@ -771,10 +771,10 @@ h3 {
     display: block;
     position: absolute;
     background: url("../img/white.png");
-    top: -27%;
+    top: -26%;
     z-index: 1;
     width: 100%;
-    height: 57px;
+    height: 56px;
     background-size: cover;
 }
 
@@ -790,18 +790,18 @@ h3 {
     text-align: center;
     line-height: 21px;
     min-height: 256px;
-    padding: 56px 25px 2px 37px;
+    padding: 50px 25px 2px 37px;
     color: white;
 }
 
 .real-town p {
-    padding-top: 23px;
-    width: 299px;
+    padding-top: 22px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .real-town h3 {
-    width: 120px;
+    width: 60%;
     margin: 0 auto;    
 }
 
@@ -810,11 +810,12 @@ h3 {
     width: 67%;
     background-color: #909c88;
     overflow: hidden;
+    height: 256px;
 }
 
 .real-town-img img {
     width: 100%;
-    min-height: 255px;
+    min-height: 256px;
 }
 
 .advantage-one {
@@ -825,23 +826,20 @@ h3 {
 .advantage-one h3 {
     font-weight: bold;
     font-size: 21px;
+    margin-top: 20px;
 }
 
 .advantage-one p {
-    width: 300px;
+    width: 75%;
     line-height: 21px;
-    padding-top: 27px;
-    margin: 0 auto;    
-}
-
-.advantage-one img {
-    padding-bottom: 25px;
+    padding-top: 23px;
+    margin: 0 auto;
 }
 
 .home,
 .food {
     float: left;
-    padding-top: 58px;
+    padding-top: 59px;
     width: 33%;
 }
 
@@ -870,9 +868,9 @@ h3 {
     background-color: #81b3d2;
     text-align: center;
     line-height: 21px;
-    padding-top: 58px;
+    padding-top: 50px;
     color: white;
-    min-height: 258px;
+    min-height: 257px;
 }
 
 .bridge h3 {
@@ -881,7 +879,7 @@ h3 {
 }
 
 .bridge p {
-    width: 320px;
+    width: 90%;
     padding-top: 23px;
     margin: 0 auto;
 }
@@ -895,7 +893,7 @@ h3 {
 
 .advantage-two p {
     padding-top: 23px;
-    width: 275px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -907,13 +905,13 @@ h3 {
 .fact-three,
 .fact-four {
     float: left;
-    padding-top: 45px;
+    padding-top: 40px;
     width: 33%;
 }
 
 .fact-five {
     float: right;
-    padding-top: 46px;
+    padding-top: 40px;
     width: 33%;
 }
 
@@ -923,14 +921,14 @@ h3 {
 }
 
 .interest p {
-    padding-top: 10px;
     line-height: 24px;
+    padding-top: 8px;
 }
 
 .interest h1 {
     font-size: 30px;
     line-height: 26px;
-    padding-top: 37px;
+    padding-top: 30px;
 }
 
 .btn-s a {
@@ -944,7 +942,7 @@ h3 {
 }
 
 .in-sedona {
-	  display: block;
+    display: block;
     background-color: #766357;
     height: 87px;
     width: 568px;
@@ -958,9 +956,9 @@ h3 {
 
 .modal-content {
     position: absolute;
-    width: 568px;
-    bottom: 196px;
-    left: 316px;
+    min-width: 568px;
+    bottom: 7.2%;
+    left: 26.4%;
     height: 396px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -1089,7 +1087,7 @@ h3 {
 
 
 .numb {
-	  display: inline-block;
+      display: inline-block;
     vertical-align: middle;
     text-align: center;
     margin-left: 39px;
@@ -1098,7 +1096,7 @@ h3 {
 }
 
 .numb-chld {
-	  display: inline-block;
+      display: inline-block;
     vertical-align: middle;
     text-align: center;
     background-color: #f2f2f2;
@@ -1129,13 +1127,14 @@ h3 {
 }
 
 .baby {
-	margin-right: 22px;
+    margin-right: 22px;
 }
 
 .map {
     background-image: url("../img/map.png");
     width: 100%;
     height: 593px;
+    overflow: hidden;
     background-color: #f2f1ef;
 }
 
@@ -1163,7 +1162,7 @@ h3 {
 .hashtag {
     float: left;
     width: 33%;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .hashtag span {
@@ -1189,7 +1188,7 @@ h3 {
 .icon-twitter,
 .icon-youtube,
 .icon-facebook {
-	  font-size: 19px;
+      font-size: 19px;
     min-height: 47px;
     padding-top: 13px;
 }
@@ -1197,7 +1196,7 @@ h3 {
 .footer-copyright {
     float: right;
     width: 33%;
-    margin-top: 5px;
+    margin-top: 2px;
     line-height: 26px;
     text-align: center;
 }
