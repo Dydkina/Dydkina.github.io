@@ -193,7 +193,6 @@ img {
 
 .menu {
     background: url("../img/hill-catalog.jpg");
-    background-size: 100%;
     background-color: #2a3c46;
     background-repeat: no-repeat;
     width: 100%;
@@ -212,7 +211,7 @@ img {
 }
 
 .hotels {
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
 .plus h2 {
@@ -573,6 +572,7 @@ span .active {
     max-height: 90px;
 }
 
+
 .white {
     min-height: 122px;
 }
@@ -584,7 +584,7 @@ span .active {
     min-width: 80%;
     margin-right: 6%;
     text-decoration: none;
-    padding-top: 25px;
+    padding-top: 24px;
     min-height: 151px;
 }
 
@@ -728,6 +728,7 @@ span .active {
     overflow: hidden;
     background-color: #86b2d4;
     background-image: url("../img/background-photo.jpg");
+    background-position: top;
 }
 
 .welcome img {
@@ -770,12 +771,11 @@ h3 {
     content: " ";
     display: block;
     position: absolute;
-    background: url("../img/white.png");
-    top: -26%;
+    background: url("../img/white.png") no-repeat;
+    top: -26.5%;
     z-index: 1;
     width: 100%;
-    height: 56px;
-    background-size: cover;
+    height: 57px;
 }
 
 .fact-one {
@@ -942,10 +942,10 @@ h3 {
 }
 
 .in-sedona {
-    display: block;
+	display: block;
     background-color: #766357;
     height: 87px;
-    width: 568px;
+    width: 576px;
     line-height: 85px;
     position: relative;
     text-align: center;
@@ -954,18 +954,22 @@ h3 {
     margin: 0 auto;
 }
 
+/* popup*/
+
+
 .modal-content {
     position: absolute;
-    min-width: 568px;
-    bottom: 7.2%;
-    left: 26.4%;
+    width: 576px;
+    left: 311px;
     height: 396px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 2;
     font-weight: bold;
-    padding-top: 54px;
+    padding: 56px 55px 56px 56px;
     display: none;
+    margin-left: -286px;
+    left: 50%;
 }
 
 .modal-content-show {
@@ -1087,7 +1091,7 @@ h3 {
 
 
 .numb {
-      display: inline-block;
+	  display: inline-block;
     vertical-align: middle;
     text-align: center;
     margin-left: 39px;
@@ -1096,7 +1100,7 @@ h3 {
 }
 
 .numb-chld {
-      display: inline-block;
+	  display: inline-block;
     vertical-align: middle;
     text-align: center;
     background-color: #f2f2f2;
@@ -1127,7 +1131,7 @@ h3 {
 }
 
 .baby {
-    margin-right: 22px;
+	margin-right: 22px;
 }
 
 .map {
@@ -1188,7 +1192,7 @@ h3 {
 .icon-twitter,
 .icon-youtube,
 .icon-facebook {
-      font-size: 19px;
+	  font-size: 19px;
     min-height: 47px;
     padding-top: 13px;
 }
